@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url(fonts/Vazir.ttf);
+}
+
+body{
+    font-family: 'Vazir';
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #40a6b8;
+    padding: 5px;
+    margin: 0;
+}
+
+header  a{
+    color: #003a55;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 30px;
+    padding: 6px;
+    background-color: #ffffff;
+    border-radius: 6px 6px 0 0;
+}
+
+header p{
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.container{
+    margin: 30px;
+    padding: 5px;
+}
+
+.container h3{
+    margin-right: 100px;
+
+}
+
+table{
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+
+
+}
+table th,td{
+    border-bottom: 1px solid #333;
+    border-collapse:collapse;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+table a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2px 4px;
+    margin: 10px 2px;
+    border-radius: 5px;
+}
+
+.delet{
+    background-color: #b81a1a;
+}
+.edit{
+    background-color: #bb6400;
+}
+tr{
+    transition: .4s;
+}
+
+tr:nth-child(even){
+    background-color: #d9e3e6;
+}
+
+tr:hover{
+    background-color: #00d5ff;
+    transition: .4s;
+}
+.my-table{
+    overflow-x: auto;
+}
+
